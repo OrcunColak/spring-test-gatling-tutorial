@@ -19,7 +19,7 @@ jobs:
         run: mvn clean install
       
       - name: Run Gatling Tests
-        run: mvn gatling:test "-Dgatling.simulationClass=gatling.BasicSimulation"
+        run: mvn gatling:test -Dgatling.simulationClass=gatling.BasicSimulation
       
       - name: Upload Results
         uses: actions/upload-artifact@v4
