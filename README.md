@@ -5,6 +5,6 @@ https://blog.stackademic.com/performance-testing-spring-boot-applications-with-g
 
 Run
 ```
-mvn gatling:test -Dgatling.simulationClass=BasicSimulation
+mvn gatling:test "-Dgatling.simulationClass=gatling.BasicSimulation"
 ```
 Results are at target/gatling 
